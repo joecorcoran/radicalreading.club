@@ -1,0 +1,3 @@
+#!/bin/sh
+
+hugo && tar -zcvf radicalreading.club.tar.gz -C ./public .
