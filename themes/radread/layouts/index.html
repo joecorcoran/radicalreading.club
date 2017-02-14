@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Radical Reading Club</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ .Description }}">
+
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="/css/site.css">
+</head>
+
+<body>
+    
+    <div class="pure-g header">
+        <div class="pure-u-1">
+                <div class=logo>
+                    <a href="/">{{ partial "logo.svg" . }}</a>
+                </div>
+                <h1>{{ .Title }}</h1>
+        </div>
+    </div>
+
+    {{ partial "menu.html" . }}
+
+    <div class="pure-g content">
+        <div class="pure-u-1">
+            {{ .Content }}
+            <p class="buttons">
+                <a href="https://talk.radicalreading.club" class="pure-button button-green">Sign up</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

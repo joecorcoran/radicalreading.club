@@ -1,0 +1,10 @@
+<svg width="72px" height="70px" viewBox="-322 105 290 279" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="book" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-316.000000, 105.000000)">
+            <polygon id="Rectangle" fill="#000000" transform="translate(145.919916, 126.222930) scale(-1, 1) rotate(-53.000000) translate(-145.919916, -126.222930) " points="81.1268426 2.14593479 199.389789 57.2316463 210.828008 250.206171 81.1268426 202.145935"></polygon>
+            <path d="M116,272 L275,154" id="Line" stroke="#000000" stroke-width="10" stroke-linecap="square"></path>
+            <path d="M274.333333,105 C274.333333,105 253.333333,126.5 274.333333,153" id="Line" stroke="#000000" stroke-width="10" stroke-linecap="square"></path>
+            <path d="M9.33333333,155 C9.33333333,155 -11.6666667,176.5 9.33333333,203" id="Line" stroke="#000000" stroke-width="10" stroke-linecap="square"></path>
+            <path d="M15,208 L113,272" id="Line" stroke="#000000" stroke-width="10" stroke-linecap="square"></path>
+            <polygon id="Star" fill="#FFFFFF" transform="translate(160.914862, 116.918183) rotate(6.000000) translate(-160.914862, -116.918183) " points="149.701419 123.494241 124.420421 121.777529 142.357174 112.027809 137.611203 98.5541899 160.372986 104.738255 182.720813 98.1849245 178.851615 111.690382 197.409302 121.047882 172.256224 123.265279 161.377679 135.651442"></polygon>
+    </g>
+</svg>

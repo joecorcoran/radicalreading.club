@@ -1,0 +1,44 @@
+body {
+    color: #333;
+}
+.header, .content, .menu {
+    width: 40%;
+    margin: 0 auto;
+}
+@media (max-width: 1400px) {
+    .header, .content, .menu {
+        width: 60%;
+    }
+}
+@media (max-width: 900px) {
+    .header, .content, .menu {
+        width: 75%;
+    }
+}
+@media (max-width: 750px) {
+    .header, .content, .menu {
+        width: 90%;
+    }
+}
+.header {
+    text-align: center;
+    margin-top: 1em;
+}
+.menu {
+    text-align: center;
+}
+.buttons {
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 0.5em;
+}
+.button-red, .button-green {
+    color: white;
+    margin-bottom: 0.5em;
+}
+.button-red {
+    background: red;
+}
+.button-green {
+    background: green;
+}
